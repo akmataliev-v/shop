@@ -1,4 +1,4 @@
-import image from "./assets/image.jpg";
+// import image from "./assets/image.jpg";
 import React from "react";
 import "./style.css";
 import { Routes, Route, Link } from "react-router-dom";
