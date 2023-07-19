@@ -7,6 +7,7 @@ import Footer from "./components/footer/footer";
 import Post from "./components/Post";
 import Product from "./components/Product/Product";
 import Service from "./components/Service/service";
+import "./components/Contact"
 
 function App() {
   return (
