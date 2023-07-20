@@ -1,6 +1,10 @@
 import React from "react";
 import "./footer.css";
 import image from "../../components/assets/reactlogo.png"
+import facebook from "../assets/facebook-icon.png";
+import twitter from "../assets/twitter-icon.png";
+import whatsapp from "../assets/whatsapp-icon.png";
+import instagram from "../assets/insta-icon.png";
 <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
 
 const Footer = () => {
@@ -20,7 +24,7 @@ const Footer = () => {
                     <h4>+999 - 03090300</h4>
                 </div>
                 <div className="col">
-                    <h3>Links <div className="underline"><span></span></div></h3>
+                    <h3 className="links-title">Links <div className="underline"><span></span></div></h3>
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Services</a></li>
@@ -42,6 +46,12 @@ const Footer = () => {
                     <i className="fab fa-twitter"></i>
                     <i className="fab fa-whatsapp"></i>
                     <i className="fab fa-pinterest"></i>
+                </div>
+                <div className="socialmedia">
+                    <a href="https://ru-ru.facebook.com/"><img src={facebook} alt=""/></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Dru"><img src={twitter} alt=""/></a>
+                    <a href="https://web.whatsapp.com/"><img src={whatsapp} alt=""/></a>
+                    <a href="https://www.instagram.com/"><img src={instagram} alt=""/></a>
                 </div>
             </div>
         </div>
