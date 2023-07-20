@@ -1,0 +1,17 @@
+.image {
+    width: 1879px;
+}
+
+.image1 {
+    display: flex;
+    margin-bottom: 200px;
+    width: 400px;
+    height: 300px;
+}
+
+.image1 * {
+    display: flex;
+    flex-direction: column;
+    border: solid #a065c0  2px;
+    padding: 10px;
+}
