@@ -1,11 +1,13 @@
 import "./style.css";
-
+import rasvet from "./rassvet.jpeg";
 function Product() {
   return (
     <div>
       <header className="header">
-        <h1>добро пожаловать</h1>
-        <p>Hello Worid</p>
+        <img className="img_product" src={rasvet} />
+        <h1 className="header_p">добро пожаловать на мою страницу</h1>
+        <p className="header_p">Hello Worid</p>
+        <div className="item"></div>
       </header>
     </div>
   );
