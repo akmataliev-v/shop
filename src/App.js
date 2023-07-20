@@ -1,6 +1,7 @@
 import image from "./assets/image.jpg";
 import React from "react";
 import "./style.css";
+import "./components/Contact"
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./components/About/about";
 import Footer from "./components/footer";
