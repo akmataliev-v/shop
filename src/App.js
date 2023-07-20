@@ -1,13 +1,14 @@
-import image from "./assets/image.jpg";
+// import image from "./assets/image.jpg";
 import React from "react";
 import "./style.css";
 import "./components/Contact"
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./components/About/about";
-import Footer from "./components/footer";
+import Footer from "./components/footer/footer";
 import Post from "./components/Post";
 import Product from "./components/Product/Product";
 import Service from "./components/Service/service";
+import "./components/Contact"
 
 function App() {
   return (
