@@ -1,0 +1,100 @@
+.contact1 {
+    background: url('https://images.techinsider.ru/upload/img_cache/863/863f9825b025f390f83b6510cd04d9ed_ce_1920x1280x0x0.jpg')fixed;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.contact2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+
+}
+
+.contact-item {
+    height: auto;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 9px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px black;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact-item:hover {
+    box-shadow: 0px 0px 25px 15px rgb(42, 42, 42);
+}
+
+.contact-image {
+    margin-top: 30px;
+    width: 1000px;
+    height: 400px;
+    margin-left: 100px;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.contact-item:hover .contact-image {
+    transform: scale(1.05);
+}
+
+.contact-details {
+    padding: 25px;
+
+}
+
+.contact-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(238, 255, 0);
+}
+
+.contact-description {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-brand,
+.contact-category {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.contact-price {
+    font-size: 16px;
+    color: #3cff00;
+    font-weight: bold;
+
+    box-shadow: 0px 0px 25px 5px rgb(113, 110, 110);
+    
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 10px;
+    box-shadow: 0px 0px 25px 15px green; */
+}
+
+.h11 {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+
+}
