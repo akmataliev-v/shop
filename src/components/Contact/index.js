@@ -8,6 +8,13 @@ const contact = [
        thumbnail: "https://img.geliophoto.com/bishkek/08_bishkek.jpg",
 
     },
+
+    {
+       id: 1,
+       title: "ГОРНОЛЫЖНЫЙ КОМПЛЕКС ЧУНКУРЧАК - отличное место для активного зимнего отдыха!",
+       thumbnail: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/138885035.jpg?k=5c19eddd492d3d904eb31c9e7845b3d753c2b0100c5a60a8de15a7b3b747eedf&o=&hp=1",
+
+    },
 ];
 
 function Contact() {
