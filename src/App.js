@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./components/About/about";
-import Footer from "./components/footer";
+import Footer from "./components/footer/footer";
 import Post from "./components/Post";
 import Product from "./components/Product/Product";
 import Service from "./components/Service/service";
