@@ -23,6 +23,12 @@ function About () {
                     <button className="btn">submit</button>
                 </div>
             </div>
+            <div className="TOKYO-drift">
+                    <div className="content-video">
+                        <img className="toyota" src="https://bogatyr.club/uploads/posts/2023-06/thumbs/1687265432_bogatyr-club-p-drift-oboi-fioletovie-vkontakte-2.jpg" alt=""/>
+                        <p className="toyota2">toyota Mark||</p>
+                    </div>
+                </div>
         </div>
     )
 }
