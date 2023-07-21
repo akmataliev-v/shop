@@ -1,14 +1,30 @@
 .image{
    width: 1000px;
-   height: 800px;
+   height: 1000px;
    padding: 20px;
-
+   border: solid 5px brown;
+   
 }
+
 .dior{
   display: flex;
-  justify-content: space-between ;
-}
+  justify-content: space-between;
+  
+} 
+
+
  .img{
     width: 500px;
-    height: 800px;
+    height: 750px;
  }
+
+ .img1{
+    width: 500px;
+    height: 750px;
+ }
+
+ .img3{
+    width: 500px;
+    height: 750px; 
+ }
+
