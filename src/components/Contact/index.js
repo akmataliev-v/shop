@@ -1,4 +1,5 @@
 import "./style.css"
+// import Lion from "../assets/2.png"
 
 const contact = [
     {
@@ -15,8 +16,13 @@ const contact = [
        thumbnail: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/138885035.jpg?k=5c19eddd492d3d904eb31c9e7845b3d753c2b0100c5a60a8de15a7b3b747eedf&o=&hp=1",
 
     },
-];
+    { 
+       id: 1,
+       title: "Toyota Camry самый продаваемый авто в Кыргызстане",
+       thumbnail: "https://files.libertycity.net/download/gta5_toyota/thumbs/2022-03/toyota-camry-v75-2022_1647599289_582951.jpg"
 
+    },
+];
 function Contact() {
 
     
